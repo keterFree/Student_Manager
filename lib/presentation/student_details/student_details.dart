@@ -63,7 +63,7 @@ class StudentDetails extends StatelessWidget {
                 children: [
                   ElevatedButton.icon(
                       style: ElevatedButton.styleFrom(
-                          primary: Colors.green,
+                          backgroundColor: Colors.green,
                           fixedSize: const Size(170, 45)),
                       onPressed: () {
                         BlocProvider.of<StudentsCubit>(context)
@@ -77,7 +77,8 @@ class StudentDetails extends StatelessWidget {
                       label: const Text('Edit Details')),
                   ElevatedButton.icon(
                       style: ElevatedButton.styleFrom(
-                          primary: Colors.red, fixedSize: const Size(170, 45)),
+                          backgroundColor: Colors.red,
+                          fixedSize: const Size(170, 45)),
                       onPressed: () {
                         deleteConfirmation(context, false, index);
                       },

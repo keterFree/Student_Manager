@@ -140,7 +140,7 @@ class UpdateStudent extends StatelessWidget {
                 builder: (context, state) {
                   return ElevatedButton.icon(
                       style: ElevatedButton.styleFrom(
-                          primary: Colors.green,
+                          backgroundColor: Colors.green,
                           fixedSize: const Size(110, 45)),
                       onPressed: () {
                         saveButtonClicked(context, state.imgPath.toString());

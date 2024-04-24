@@ -134,7 +134,8 @@ class AddStudent extends StatelessWidget {
               // Submit button
               ElevatedButton.icon(
                   style: ElevatedButton.styleFrom(
-                      primary: Colors.green, fixedSize: const Size(110, 45)),
+                      backgroundColor: Colors.green,
+                      fixedSize: const Size(110, 45)),
                   onPressed: () {
                     addButtonClicked(context);
                   },
